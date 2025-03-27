@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature Conversion</title>
+</head>
+<body>
+    <main>
+        <h1>Temperature Conversion:</h1>
+        <input type="text" id="nbr" value="0">
+        <label for="CelToFar">
+            <input type="radio" name="c" id="CelToFar"><span>Celesuis to Fahrenhelt</span>
+        </label>
+        <label for="FarToCel">
+            <input type="radio" name="c" id="FarToCel"><span>Fahrenhelt to Celesuis</span>
+        </label>
+        <p id="result"></p>
+        <input type="button" id="btn" class="btn" value="Submit" onclick="Convert()">
+        <input type="button" id="reset" class="btn" value="Reset" onclick="effacer()">
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
